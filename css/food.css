@@ -1,0 +1,32 @@
+*{
+box-sizing: border-box;
+font-family: "PT Serrif", serifma;
+}
+
+header{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px 20px;
+    min-height: 10vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+#menu a {
+    text-decoration: none;
+    color: #0176C0;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#baner{
+    text-align: center;
+}

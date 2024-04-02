@@ -3,6 +3,8 @@ box-sizing: border-box;
 font-family: "PT Serrif", serifma;
 }
 
+
+
 header{
     display: flex;
     max-width: 1200px;
@@ -16,17 +18,72 @@ header{
 
 #menu{
     display: flex;
-    gap: 15px;
+    gap:185px;
     list-style: none;
+    text-align: center;
+    
 }
+
 #menu a {
     text-decoration: none;
     color: #0176C0;
     padding: 10px 15px;
     font-size: 1.6rem;
-    text-align: center;
+  
 }
 
 #baner{
     text-align: center;
 }
+
+#marca{
+    display: flex;
+    max-width: 1200px;
+    background: #0176C0;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.9rem;
+    margin: 0 auto;
+    gap: 110px;
+    word-break: break-word;
+    align-items: center;
+    margin-top: 25px;
+    /* align-content: space-around;
+    flex-direction: column;*/
+    
+}
+h6{
+    text-align: left;
+    color: #6CC62F;
+    margin: 0;
+}
+
+#produtos{
+    display:flex;
+    max-width: 1200px;
+    margin-top:25px;
+    gap:48px;
+
+}
+
+.produto-1{
+    background: #6CC62F;
+    border-radius: 6px;
+    border: 3px solid #6CC62F;
+  
+}
+.produto-2{
+    background: #0176C0;
+    border-radius: 6px;
+    border: 3px solid #0176C0 ;
+}
+
+#mapa h3{
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    background: #0176C0;
+}
+
+
+

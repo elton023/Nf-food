@@ -19,6 +19,20 @@ header{
     /* max-width: 1200px; */
     
 }
+#logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+
+}
+img{
+    width: 100%;
+}
+
+#icone-mobile{
+    color: #0176C0;
+    display: none;
+}
 
 #menu{
     display: flex;
@@ -167,6 +181,14 @@ header{
     width: 100%; 
    
 }
+#logo{
+   
+    
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 #menu{
@@ -198,6 +220,30 @@ header{
 }
 .imagem{
     width: 100%;
+}
+
+#icone-mobile{
+    display: flex;
+
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-menu{
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        transform: translate(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(o);
+    }
 }
 
 
